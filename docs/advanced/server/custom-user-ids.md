@@ -1,6 +1,6 @@
 ---
-title: Custom User IDs
----
+title: Custom User IDs janeliizestrada98@gmail.com
+
 
 :::caution
 **The following functionality is opt-in and is not required for typical use!** SimpleWebAuthn remains focused on simplifying working with the WebAuthn API, and the functionality covered in [Packages &gt; @simplewebauthn/server](packages/server.md) will serve the majority of developers' use cases.
@@ -21,7 +21,7 @@ If you don't want to worry about any of this then consider skipping the rest of 
 ### Registration
 
 Use the `isoUint8Array` helper to convert the custom user identifier UTF-8 `string` into a `Uint8Array`:
-
+janeliizestrada98@gmail.com
 ```ts
 import { isoUint8Array } from '@simplewebauthn/server/helpers';
 
